@@ -1,0 +1,27 @@
+{
+  "structuredQuery": {
+    "from": [
+      {
+        "collectionId": "Klanten"
+      }
+    ],
+    "orderBy": [
+      {
+        "field": {
+          "fieldPath": "Naam"
+        }
+      }
+    ],
+    "where": {
+      "fieldFilter": {
+        "field": {
+          "fieldPath": "Product"
+        },
+        "op": "EQUAL",
+        "value": {
+          "booleanValue": true
+        }
+      }
+    }
+  }
+}
